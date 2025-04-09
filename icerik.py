@@ -27,9 +27,4 @@ def content(url):
         file.write("-" * 50 + "\n")
         file.write(f"Data: {data}\n")
         file.write("-" * 50 + "\n")
-
-    print("✅ Dosya kaydedildi:", masaustu_yolu)
-    print("📂 Dosya mevcut mu?:", os.path.exists(masaustu_yolu))
-
-
 content("https://www.milligazete.com.tr/haber/24244937/serdar-haydanli-kimdir")
